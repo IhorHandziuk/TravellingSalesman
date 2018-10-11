@@ -11,6 +11,6 @@ link_directories(third_party/freeglut/lib)
 
 add_executable(TravellingSalesman main.cpp graph.cpp)
 
-set_target_properties(TravellingSalesman PROPERTIES LINK_FLAGS "-static" )
+set_target_properties(TravellingSalesman PROPERTIES LINK_FLAGS "-static")
 
 target_link_libraries(TravellingSalesman freeglut_static opengl32 glu32 winmm gdi32)
